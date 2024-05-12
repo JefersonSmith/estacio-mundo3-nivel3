@@ -101,7 +101,7 @@ public class CadastroBD {
         try {
             System.out.println("Digite o nome: ");
             pessoaJuridica.setNome(sc.nextLine());
-            System.out.println("Digite o cpf: ");
+            System.out.println("Digite o CNPJ: ");
             pessoaJuridica.setCnpj(sc.nextLine());
             System.out.println("Digite o telefone: ");
             pessoaJuridica.setTelefone(sc.nextLine());
